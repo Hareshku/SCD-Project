@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services Section with HTML and CSS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Montserrat+Alternates:wght@100;300;400;500;700&family=Montserrat:wght@100;300;400&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
@@ -15,13 +15,192 @@
     </head>
 <body>
     <!-- Home-page  -->
-<div class="home-page" id="Home"></div>
+<div class="home-page" id="Home">
+    <header class="header">
+        <nav class="navbar">
+          <h2 class="logo"><a href="#">Logo</a></h2>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" id="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </label>
+          <ul class="links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#our-Services">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#Team">Our Team</a></li>
+          </ul>
+          <div class="buttons">
+            <a href="#" class="signin">Sign In</a>
+            <a href="#" class="signup">Sign Up</a>
+          </div>
+        </nav>
+      </header>
+      <section class="hero-section">
+        <div class="hero">
+          <h2>Mobile App Development</h2>
+          <p>
+            Join us in the exciting world of programming and turn your ideas into
+            reality. Unlock the world of endless possibilities - learn to code and
+            shape the digital future with us.
+          </p>
+          <div class="buttons">
+            <a href="#" class="join">Join Now</a>
+            <a href="#" class="learn">Learn More</a>
+          </div>
+        </div>
+        <div class="img">
+          <img src="https://www.codingnepalweb.com/demos/create-responsive-website-html-css/hero-bg.png" alt="hero image" />
+        </div>
+      </section>
+</div>
 
 <!-- Our-services  -->
-<div class="container" id="our-Services"></div>
+<div class="container" id="our-Services">
+    <h1 class="container__heading">Our Sevices</h1>
+    <div class="container__box">
+       <!-- HTML5 -->
+        <div class="box">
+            <img class="images" src="https://cdn-icons-png.flaticon.com/512/888/888859.png?w=740&t=st=1677916471~exp=1677917071~hmac=827af8ac831a0bb7d0b81be0893374f854d05dd02adfaeffb66149b744d2cf97" alt="">
+            <h3>HTML5</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+       <!-- CSS3 -->
+        <div class="box">
+            <img class="images" src="https://cdn-icons-png.flaticon.com/512/919/919826.png?w=740&t=st=1677916869~exp=1677917469~hmac=0543aa1335360aac66f18c8110ffbd21b085825c31d92ffa0e6ad7874027ccd9" alt="">
+            <h3>CSS3</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <!-- JavaScript -->
+        <div class="box">
+            <img class="images" src="https://img.freepik.com/free-icon/javascript_318-698169.jpg?size=338&ext=jpg&uid=R95218254&ga=GA1.1.1791957629.1674016057&semt=sph" alt="">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <!-- SASS -->
+        <div class="box">
+            <img class="images" src="https://img.freepik.com/premium-vector/flat-design-saas-illustration_23-2149253476.jpg?size=338&ext=jpg&uid=R95218254&ga=GA1.1.1791957629.1674016057&semt=robertav1" alt="">
+            <h3>SASS</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <!-- JQuery -->
+        <div class="box">
+            <img class="images" src="https://img.freepik.com/free-icon/logogram_318-478558.jpg?size=338&ext=jpg&uid=R95218254&ga=GA1.1.1791957629.1674016057&semt=robertav1" alt="">
+            <h3>JQuery</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+        <!-- React.Js -->
+        <div class="box">
+            <img class="images" src="https://cdn-icons-png.flaticon.com/512/168/168768.png?w=740&t=st=1677917581~exp=1677918181~hmac=f9748d6e8124b77e88a29622e14456e4a45ce2b0be2680ba3718f16935aeea1a" alt="">
+            <h3>React.Js</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.
+            </p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </div>
+</div>
 
 <!-- Skills-page  -->
- <div class="container-skills" id="skills"></div>
+ <div class="container-skills" id="skills">
+    <header>
+        <h2>Skills</h2>
+         <div class="about-skills" style="width: 80%;  margin: 5% 10%;">
+            <p style="color: white; font-weight: 100; font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad placeat iusto esse aliquam recusandae cupiditate similique enim porro veritatis iure illo corrupti expedita impedit odit repellat consequatur, non, provident perferendis dolores libero facere. Architecto laboriosam aliquid molestias ex a eligendi expedita suscipit! Officia nesciunt dignissimos, sit delectus quod eos blanditiis odit impedit recusandae fugit excepturi rem consequatur sed id esse dolor vitae. Ad, at dolorum maiores eveniet inventore fugiat consectetur deserunt eligendi modi atque quidem molestiae a voluptatem impedit optio sapiente voluptatum, explicabo, id libero nobis. Corporis explicabo labore deleniti non quod? Aliquam quidem magni amet ducimus, ipsum nemo deleniti!</p></div>
+      </header>
+    
+      <div class="skills">
+      <ul class="ch-grid">
+        <li>
+            <div class="circle"> 
+                <div class="mask half">
+                    <div class="fill" style="transform:var(--value-percentage90); --to-deg:var(--value-percentage90);"></div>
+                </div>
+                <div class="mask full" style="transform:var(--value-percentage90); --to-deg:var(--value-percentage90);">
+                    <div class="fill" style="transform:var(--value-percentage90); --to-deg:var(--value-percentage90);"></div>
+                 </div>
+                 <div class="inside-circle"><h3>HTML</h3></div>
+                <!-- <img src="" alt="html icon" class="ch-img"> -->
+                <div class="ch-info">
+                    <h3>Almost done with html</h3>
+                    <p>HTML5</p>
+                </div>
+                </div>
+        </li>
+        <li>
+            <div class="circle"> 
+                <div class="mask half">
+                    <div class="fill" style="transform:var(--value-percentage80); --to-deg:var(--value-percentage80);"></div>
+                </div>
+                <div class="mask full" style="transform:var(--value-percentage80); --to-deg:var(--value-percentage80);">
+                    <div class="fill" style="transform:var(--value-percentage80); --to-deg:var(--value-percentage80);"></div>
+                 </div>
+                 <div class="inside-circle"><h3>CSS3</h3></div>
+                <!-- <img src="https://raw.githubusercontent.com/StephaniePlomp/stephanieplomp.github.io/7aa39048b5483b8dda08368d1e0451e627b50c51/images/css.svg" alt="html icon" class="ch-img"> -->
+                <div class="ch-info">
+                    <h3>Improving this skill everyday</h3>
+                    <p>CSS3</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="circle"> 
+                <div class="mask half">
+                    <div class="fill" style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);"></div>
+                </div>
+                <div class="mask full" style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);">
+                    <div class="fill" style="transform:var(--value-percentage60); --to-deg:var(--value-percentage60);"></div>
+                 </div>
+                 <div class="inside-circle"><h3>JavaScript</h3></div>
+                <!-- <img src="https://raw.githubusercontent.com/StephaniePlomp/stephanieplomp.github.io/7aa39048b5483b8dda08368d1e0451e627b50c51/images/javascript.svg" alt="html icon" class="ch-img"> -->
+                <div class="ch-info">
+                    <h3>Improving this skill everyday</h3>
+                    <p>JavaScript</p>
+                </div>
+                </div>
+        <li>
+            <div class="circle"> 
+                <div class="mask half">
+                    <div class="fill" style="transform:var(--value-percentage10); --to-deg:var(--value-percentage10);"></div>
+                </div>
+                <div class="mask full" style="transform:var(--value-percentage10); --to-deg:var(--value-percentage10);">
+                    <div class="fill" style="transform:var(--value-percentage10); --to-deg:var(--value-percentage10);"></div>
+                 </div>
+                 <div class="inside-circle"><h3>React</h3></div>
+                <!-- <img src="https://raw.githubusercontent.com/StephaniePlomp/stephanieplomp.github.io/7aa39048b5483b8dda08368d1e0451e627b50c51/images/react.svg" alt="html icon" class="ch-img"> -->
+                <div class="ch-info">
+                    <h3>Actively studying since jun '22</h3>
+                    <p>React</p>
+                </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+ </div>
 
  <!-- Team-page  -->
  <section class="our-team" id="Team"></section>
@@ -29,9 +208,10 @@
  <!-- Contact-page  -->
 <section id="contact"></section> 
 <!-- footer-section  -->
-<footer></footer>
+<footer>
+    <span>Created By |Haresh Kumar | Mubashir Ali | Rizwan Rafique @ 2024</span>
+</footer>
 </body>
-
 </html>
 
 
