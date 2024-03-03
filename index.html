@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services Section with HTML and CSS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Montserrat+Alternates:wght@100;300;400;500;700&family=Montserrat:wght@100;300;400&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
@@ -15,7 +15,48 @@
     </head>
 <body>
     <!-- Home-page  -->
-<div class="home-page" id="Home"></div>
+<div class="home-page" id="Home">
+    <header class="header">
+        <nav class="navbar">
+          <h2 class="logo"><a href="#">Logo</a></h2>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" id="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+              <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </label>
+          <ul class="links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#our-Services">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#Team">Our Team</a></li>
+          </ul>
+          <div class="buttons">
+            <a href="#" class="signin">Sign In</a>
+            <a href="#" class="signup">Sign Up</a>
+          </div>
+        </nav>
+      </header>
+      <section class="hero-section">
+        <div class="hero">
+          <h2>Mobile App Development</h2>
+          <p>
+            Join us in the exciting world of programming and turn your ideas into
+            reality. Unlock the world of endless possibilities - learn to code and
+            shape the digital future with us.
+          </p>
+          <div class="buttons">
+            <a href="#" class="join">Join Now</a>
+            <a href="#" class="learn">Learn More</a>
+          </div>
+        </div>
+        <div class="img">
+          <img src="https://www.codingnepalweb.com/demos/create-responsive-website-html-css/hero-bg.png" alt="hero image" />
+        </div>
+      </section>
+</div>
 
 <!-- Our-services  -->
 <div class="container" id="our-Services"></div>
@@ -31,7 +72,6 @@
 <!-- footer-section  -->
 <footer></footer>
 </body>
-
 </html>
 
 
