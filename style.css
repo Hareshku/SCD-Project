@@ -273,7 +273,7 @@
 }
 .container{
   display: grid;
-
+  margin-bottom: 150px;
 }
 .container__box{
   display: grid;
@@ -282,8 +282,10 @@
 }
 .container .container__box .box{
   background: transparent;
+  border: 1px solid;
   border-radius: 6px;
   box-shadow: 1.5px 1.5px 2px #968d8d77;
+  border-color:#fff;
   text-align: center;
   padding: 20px 30px;
   transition: all 1s;
@@ -343,12 +345,12 @@
 }
 
 .container-skills{
-  border: 1px solid white;
-  border-radius: 20px;
+  /* border: 1px solid white;
+  border-radius: 20px; */
 }
 
 .container-skills header h2 {
-  padding: 50px;
+  margin:auto;
   color: rgb(243, 240, 240);
   font-size: 40px;
   font-weight: 400;
