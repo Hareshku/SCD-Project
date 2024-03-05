@@ -1,5 +1,7 @@
 #contact{
     margin-top: 100px;
+    background-color:rgb(35, 50, 76);
+    color:white;
 }
 
 .section-header {
@@ -23,23 +25,27 @@
   max-width: 840px;
 }
 
-.col-sm-12{
- margin: 10px 0;
-}
 /* Left contact page */
 .form-horizontal {
   max-width: 400px;
   font-family: 'Lato';
   font-weight: 400;
 }
+/* .form-group .form-control{
+  background-color: red;
+} */
 
-.form-control, 
-textarea {
+.form-group 
+.form-control,textarea{
   max-width: 400px;
-  background-color:#330c43;
-  color:white;
+  background-color:rgb(35, 50, 76);
+  color:#fff;
   letter-spacing: 1px;
-  
+  margin: 10px 0;
+}
+
+::placeholder{
+  color: white;
 }
 
 .send-button {
