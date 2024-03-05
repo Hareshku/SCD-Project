@@ -118,7 +118,6 @@
   .hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    /* margin-left: 70px; */
     color: #c9c7c7;
   }
   
@@ -128,7 +127,6 @@
   
   .hero-section .buttons {
     margin-top: 40px;
-    /* margin-left: 70px; */
   }
   
   .hero-section .buttons a {
@@ -184,10 +182,6 @@
       margin:0px 0px 10px 0px;
   }
 
-  /* .hero p{
-    margin: auto;
-  }
-   */
   .navbar {
     display: flex;
     align-items: center;
@@ -228,19 +222,8 @@
       max-width: 100%;
       align-items: center;
       margin-top: 70px;
-
-      /* margin-inline: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-      gap: 30px; */
     }
   
-    /* .hero-section .buttons{
-        margin: auto;
-    } */
     .hero-section .img img {
       width: 400px;
       height: 300px;
@@ -253,7 +236,6 @@
       max-width: 100%;
       text-align: center;
       margin-top: 100px;
-      /* gap: 20px; */
     }
     .hero h2 {
       font-size: 1.5rem;
@@ -268,10 +250,6 @@
       width: 370px;
       height: 250px;
     }
-
-    /* .hero-section .buttons{
-        margin: 10px 0px 0px 0px
-    } */
   }
   
 /* Services Section Styling */

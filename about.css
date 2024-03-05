@@ -15,14 +15,10 @@
   /* About-section  */
 
   .our-team{
-    /* background-color: rgb(179, 172, 172); */
     font-family: "Centruy Gothic";
-    /* min-height: 100vh; */
     height: auto;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid white; */
-    /* border-radius: 10px; */
     margin-top: 100px;
   }
 
