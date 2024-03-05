@@ -12,12 +12,15 @@
     background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
     font-family: sans-serif;
   }
-
+  body::-webkit-scrollbar{
+    display: none;
+  }
 /* Home-Page Styling */
 
   .home-page {
     height: 100vh;
     width: 100%;
+    background: linear-gradient(to bottom, #175d69 23%, #330c43 95%);
   }
   
   .header {
@@ -25,13 +28,14 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 4;
   }
   
   .navbar {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    max-width: 100%;
+    justify-content:space-between;
+    max-width: 1200px;
     padding: 20px 15px;
   }
   
@@ -39,6 +43,7 @@
     font-size: 1.8rem;
     text-decoration: none;
     color: #fff;
+    margin-left: 31px;
   }
   
   .navbar .links {
@@ -46,6 +51,7 @@
     align-items: center;
     list-style: none;
     gap: 35px;
+    margin-top: 15px;
   }
   
   .navbar .links a {
@@ -106,13 +112,13 @@
   
   .hero h2 {
     font-size: 2.5rem;
-    margin-left: 70px;
+    margin: 0px 0px 20px 0px;
   }
   
   .hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     color: #c9c7c7;
   }
   
@@ -122,7 +128,7 @@
   
   .hero-section .buttons {
     margin-top: 40px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
   }
   
   .hero-section .buttons a {
@@ -170,17 +176,18 @@
       font-size: 1.8rem;
       text-decoration: none;
       color: #fff;
+      margin: 0px;
     }
     
     .hero h2 {
       font-size: 2rem;
-      margin:auto;
+      margin:0px 0px 10px 0px;
   }
 
-  .hero p{
+  /* .hero p{
     margin: auto;
   }
-  
+   */
   .navbar {
     display: flex;
     align-items: center;
@@ -219,23 +226,25 @@
   
     .hero-section .hero {
       max-width: 100%;
+      align-items: center;
       margin-top: 70px;
-      margin-inline: 30px;
+
+      /* margin-inline: 30px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       text-align: center;
-      gap: 30px;
+      gap: 30px; */
     }
   
-    .hero-section .buttons{
+    /* .hero-section .buttons{
         margin: auto;
-    }
+    } */
     .hero-section .img img {
       width: 400px;
       height: 300px;
-      margin: 10px 0px -35px px;
+      margin: 10px 0px 0px px;
     }
   }
   
@@ -244,15 +253,15 @@
       max-width: 100%;
       text-align: center;
       margin-top: 100px;
-      gap: 20px;
+      /* gap: 20px; */
     }
     .hero h2 {
       font-size: 1.5rem;
-      margin: auto;
+      margin: 0px 0px 10px 0px;
     }
     .hero p {
       font-size: 1rem;
-      margin: auto;
+      margin: 0px;
       color: #c9c7c7;
     }
     .hero-section .img img {
@@ -260,9 +269,9 @@
       height: 250px;
     }
 
-    .hero-section .buttons{
-        margin: auto;
-    }
+    /* .hero-section .buttons{
+        margin: 10px 0px 0px 0px
+    } */
   }
   
 /* Services Section Styling */
@@ -273,8 +282,20 @@
 }
 .container{
   display: grid;
-  margin-bottom: 150px;
+  margin-top: 100px;
 }
+.container p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 70px;
+    color: #aca9a3;
+  }
+  .container h2{
+    text-align: center;
+    margin: 30px 0 30px 0;
+    font-size: 20px;
+    color: rgb(220, 217, 217);
+  }
 .container__box{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
@@ -345,8 +366,7 @@
 }
 
 .container-skills{
-  /* border: 1px solid white;
-  border-radius: 20px; */
+ margin: 130px 0px;
 }
 
 .container-skills header h2 {
@@ -359,6 +379,16 @@
   justify-content: center;
   display: flex;
   margin-left: -20px;
+}
+.container-skills .about-skills{
+  width: 80%;
+  margin: 5% 10%;
+}
+.container-skills .about-skills p{
+  color: white; 
+  font-weight: 100; 
+  font-size: 20px; 
+  text-align: center;
 }
 
 .skills{
@@ -496,6 +526,7 @@
 }
 .inside-circle h3{
     margin: 40% 0% 0%  -4%;
+    color: white;
 }
 @keyframes fill{
   0% {
